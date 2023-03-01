@@ -1,0 +1,30 @@
+.close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 8px;
+}
+
+.close:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.btnEdit {
+    position: absolute;
+    right: -45px;
+    top: 0px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(225, 236, 248);
+}
+
+.btnEdit:hover {
+    background-color: #0d6efd;
+    color: white;
+}
